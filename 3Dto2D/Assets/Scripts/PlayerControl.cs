@@ -47,7 +47,7 @@ public class PlayerControl : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            pos.position = new Vector3(pos.position.x, pos.position.y, 1f);
+            pos.position = new Vector3(pos.position.x, pos.position.y, 2f);
         }
 
     }
